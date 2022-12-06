@@ -1,0 +1,73 @@
+.boody{
+    background-color:#fcfcfc;
+}
+.color1
+{
+    background-color: #f5f5f5;
+}
+.color2{
+    background-color: #292f36;
+}
+.color3{
+    background-color: #4ecdc4;
+}
+.color4{
+    background-color: #ffe66d;
+}
+#example {
+    padding: 20px;
+  }
+  
+  #example .col {
+    border: 2px solid #c9c9c9;
+  }
+  
+  #example .col:not(:last-child) {
+    border-right-width: 0;
+  }
+  
+  #example .row:not(:last-child) .col {
+    border-bottom-width: 0;
+  }
+.boy {
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    transition: 0.3s all;
+}
+.boy a {
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    transition: 0.3s all;
+}
+.boy button {
+    padding: 0;
+    border: none;
+    background: none;
+}
+.boy a:hover{
+    color: rgb(0, 0, 0);
+}
+.boy a:hover::after{
+    content: "";
+    height: 2px;
+    width: 100%;
+    display: block;
+    background-color: rgb(52, 29, 255);
+    transition: width.3;
+}
+.boy button:hover::after{
+    content: "";
+    height: 2px;
+    width: 100%;
+    display: block;
+    background-color: rgb(52, 29, 255);
+    transition: width.3;
+}
+.boy button:hover{
+    color: rgb(0, 0, 0);
+    
+}
+.navo{
+    background-color: #cecece;}
